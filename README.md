@@ -48,7 +48,7 @@ PlayNest is a comprehensive Android application for booking sports turfs and fac
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/playnest-turf-booking.git
+   git clone https://github.com/AdityaGupta62005/playnest-turf-booking.git
    cd playnest-turf-booking
    \`\`\`
 
@@ -81,31 +81,6 @@ PlayNest is a comprehensive Android application for booking sports turfs and fac
    - Configure app colors in `res/values/colors.xml`
    - Update app name and strings in `res/values/strings.xml`
 
-## 📁 Project Structure
-
-\`\`\`
-app/
-├── src/main/java/com/example/playnest/
-│   ├── data/
-│   │   ├── model/          # Data models
-│   │   ├── repository/     # Repository pattern implementation
-│   │   └── remote/         # Firebase data sources
-│   ├── presentation/
-│   │   ├── auth/           # Authentication screens
-│   │   ├── booking/        # Booking related screens
-│   │   ├── home/           # Home screen
-│   │   ├── notifications/  # Notifications
-│   │   ├── owner/          # Owner dashboard screens
-│   │   └── profile/        # User profile
-│   └── utils/              # Utility classes
-├── res/
-│   ├── drawable/           # Icons and images
-│   ├── layout/             # XML layouts
-│   ├── menu/               # Menu resources
-│   ├── navigation/         # Navigation graphs
-│   └── values/             # Colors, strings, styles
-└── AndroidManifest.xml
-\`\`\`
 
 ## 🔧 Key Components
 
